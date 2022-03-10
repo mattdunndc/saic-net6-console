@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "email": "dave@gmail.com",
+      "firstName": "Dave",
+      "lastName": "Brock",
+      "stories": [
+        {
+          "storyId": 1,
+          "title": "Upgrade to .NET 6",
+          "points": 3,
+          "dueDate": "2022-03-19T09:39:14.1632412-04:00",
+          "userId": 1
+        },
+        {
+          "storyId": 2,
+          "title": "Upgrade EFCore version",
+          "points": 5,
+          "dueDate": "2022-03-17T09:39:14.1803889-04:00",
+          "userId": 1
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "email": "carla@gmail.com",
+      "firstName": "Carla",
+      "lastName": "Waters",
+      "stories": [
+        {
+          "storyId": 3,
+          "title": "Create XUnit Tests",
+          "points": 3,
+          "dueDate": "2022-03-24T09:39:14.1805081-04:00",
+          "userId": 2
+        },
+        {
+          "storyId": 8,
+          "title": "Vue JS work",
+          "points": 8,
+          "dueDate": "2022-03-20T09:39:14.1805757-04:00",
+          "userId": 2
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "email": "emma@gmail.com",
+      "firstName": "Emma",
+      "lastName": "Johnston",
+      "stories": [
+        {
+          "storyId": 4,
+          "title": "Load Testing",
+          "points": 5,
+          "dueDate": "2022-03-21T09:39:14.180536-04:00",
+          "userId": 3
+        },
+        {
+          "storyId": 6,
+          "title": "Training",
+          "points": 5,
+          "dueDate": "2022-03-13T09:39:14.1805591-04:00",
+          "userId": 3
+        },
+        {
+          "storyId": 9,
+          "title": "Middleware work",
+          "points": 2,
+          "dueDate": "2022-04-09T09:39:14.180595-04:00",
+          "userId": 3
+        }
+      ]
+    },
+    {
+      "userId": 4,
+      "email": "jenny@gmail.com",
+      "firstName": "Jenny",
+      "lastName": "Block",
+      "stories": [
+        {
+          "storyId": 5,
+          "title": "Web API Controller",
+          "points": 8,
+          "dueDate": "2022-03-20T09:39:14.1805485-04:00",
+          "userId": 4
+        },
+        {
+          "storyId": 7,
+          "title": "Pair programming",
+          "points": 8,
+          "dueDate": "2022-03-25T09:39:14.180568-04:00",
+          "userId": 4
+        }
+      ]
+    },
+    {
+      "userId": 5,
+      "email": "tony@gmail.com",
+      "firstName": "Tony",
+      "lastName": "Tiger",
+      "stories": [
+        {
+          "storyId": 10,
+          "title": "JWT module",
+          "points": 8,
+          "dueDate": "2022-03-18T09:39:14.1806044-04:00",
+          "userId": 5
+        }
+      ]
+    },
+    {
+      "userId": 6,
+      "email": "bobby@gmail.com",
+      "firstName": "Bob",
+      "lastName": "Peru",
+      "stories": null
+    }
+  ]
+}
