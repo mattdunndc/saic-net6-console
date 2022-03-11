@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using saic_net6_console;
 using System.Text.Json;
 
 Console.WriteLine("Hello, World!");
 
-var peeps = JsonSerializer.Deserialize<Net6api.Models.APIModels.people>(File.ReadAllText("users-list.json"));
+var users = JsonSerializer.Deserialize<APIModels.Users>(File.ReadAllText("users-list.json"));
 
 var x = 0;
 

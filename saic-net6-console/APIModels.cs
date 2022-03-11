@@ -1,17 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Net6api.Models
+namespace saic_net6_console
 {
     public class APIModels
-    {
-        //public record User {([Required] int userId, [Required] string email, string firstName, string lastName);
+    {        
 
-        public class people 
+        public class Users 
         {
-            public List<user>? users { get; set; }
+            public List<User>? users { get; set; }
         }
-        public class user
+        public class User
         {
             [Required]
             public int userId { get; set; }
@@ -20,12 +18,12 @@ namespace Net6api.Models
             public string? firstName { get; set; }
             public string? lastName { get; set; }
 
-            public List<story>? stories { get; set; }
+            public List<Story>? stories { get; set; }
 
         };
 
-        //public record Story([Required] int storyId, [Required] string title, int userId);
-        public class story
+       
+        public class Story
         {
             [Required]
             public int storyId { get; set; }
